@@ -82,7 +82,16 @@ const SignUp = ({ setUser }) => {
           >
             <option value="United States">United States</option>
             <option value="Canada">Canada</option>
-            {/* Add more countries as needed */}
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Australia">Australia</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Germany">Germany</option>
+            <option value="India">India</option>
+            <option value="France">France</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+            <option value="Brazil">Brazil</option>
+            <option value="South Korea">South Korea</option>
           </select>
           <select
             value={gender}
@@ -93,7 +102,6 @@ const SignUp = ({ setUser }) => {
             <option value="">Select Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
-            <option value="other">Other</option>
           </select>
           <input
             type="number"
